@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Reav Products</title>
+    <link rel="stylesheet" href="~/Content/Site.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <header>
+            <div class="center">
+                <div class="logo"><img src="~/fonts/Reav Products Logo.png" /></div><!--logo-->
+                <div class="menu">
+                    <a href="/Home/Index">Home</a>
+                    <a href="/Cadastro/Index">Cadastrar-se</a>
+                    <a href="/EmpresasP/Index">Seja Divulgado por nós!</a>
+                </div>
+
+            </div><!--menu-->
+        </header>
+        <div class="form">
+            <form action="/Cadastro/Create" method="post">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Seja Nosso Parceiro!</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome do Proprietario</label>
+                        <input id="firstname" type="text" name="nomeProprietario" placeholder="Digite O nome do proprietario da empresa" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="Empresa">CNPJ</label>
+                        <input id="CNPJ" type="text" name="CNPJ" placeholder="Digite o CNPJ da empresa" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Nome da Empresa</label>
+                        <input id="NomeEmpresa" type="text" name="NomeEmpresa" placeholder="Digite o nome da empresa" required>
+                    </div>
+                    <button>Cadastrar</button>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
+

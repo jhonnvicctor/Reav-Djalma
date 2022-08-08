@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Reav Products</title>
+    <link rel="stylesheet" href="~/Content/Site.css">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><img src="~/fonts/Reav Products Logo.png" /></div><!--logo-->
+            <div class="menu">
+                <a href="/Home/Index">Home</a>
+                <a href="/Cadastro/Index">Cadastrar-se</a>
+                <a href="/EmpresasP/Index">Seja Divulgado por nós!</a>
+            </div>
+            <script>
+                $(document).ready(function () {
+                    $(".botaomenu").click(function () {
+                        $(".wrapper-mobile ul").slideToggle();
+                        $(".wrapper-mobile i").toggleClass("fa-bars");
+                        $(".wrapper-mobile i").toggleClass("fa-times");
+                    });
+                });
+            </script>
+            <div class="wrapper-mobile">
+                <div class="botaomenu">
+                    <div class="fa-3x">
+                        <i class="fa-solid fa-bars fa-beat" style="--fa-animation-duration: 0.5s;"></i>
+                    </div>
+                </div>
+
+            </div><!--menu-->
+</header>
+    <section class="sobre">
+        <div class="center">
+
+            <div class="content-sobre  w30">
+
+                <br><br><br><br><br><br>
+                <h2 for="Texto de Introdução"><b>Quem Somos :</b></h2> <br><br><br>
+                <label for="Texto de Introdução2"><b>Nós do Reav Project somos uma empresa pra divulga</b></label><br>
+                <label for="Texto de Introdução2"><b>produtos de nossos parceiros, como alguns Vistos a direita :</b></label><br><br><br>
+
+            </div><!--content-sobre-->
+            <div class="img-sobre w70">
+                <div>
+                    <img class="lata" src="~/fonts/Imperio lata.png">
+                    <img class="Mac" src="~/fonts/mcdonald-g09aed7bad_1280.png">
+                </div> <br><br><br><br><br><br><br><br><br>
+                <div>
+                    <img class="Coca" src="~/fonts/coca.png">
+                    <img class="Real" src="~/fonts/Real.png">
+                </div>
+            </div>
+        </div>
+        <div class="bgCirculo">
+
+        </div>
+
+    </section>
+</body>
+</html>

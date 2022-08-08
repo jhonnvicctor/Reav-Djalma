@@ -1,0 +1,102 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+    .menu a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.bgCirculo {
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #ff2c2c;
+}
+
+.lata {
+    width: 140px;
+}
+
+.sobre .center {
+    position: relative;
+    z-index: 10;
+}
+
+.img-sobre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Mac {
+    width: 220px;
+}
+
+.Coca {
+    width: 120px;
+}
+
+.Real {
+    width: 250px;
+}
+
+label {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 30px;
+}

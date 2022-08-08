@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Reav Products</title>
+    <link rel="stylesheet" href="~/Content/Site.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <header>
+            <div class="center">
+                <div class="logo"><img src="~/fonts/Reav Products Logo.png" /></div><!--logo-->
+                <div class="menu">
+                    <a href="/Home/Index">Home</a>
+                    <a href="/Cadastro/Index">Cadastrar-se</a>
+                    <a href="/EmpresasP/Index">Seja Divulgado por nós!</a>
+                </div>
+
+            </div><!--menu-->
+        </header>
+        <div class="form">
+            <form action="/Cadastro/Create" method="post">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="nome" placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="Empresa">Empresa</label>
+                        <input id="Empresa" type="Empresa" name="Empresa" placeholder="Digite sua empresa correspondente" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+                    <button>Cadastrar</button>
+                </div>
+                    </div>
+                </div>
+</body>
+
+</html>
